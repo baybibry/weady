@@ -69,7 +69,7 @@ function App() {
               </div>
 
               <div className='date'>
-                {dateBuilder(new Date(weather.dt))}
+                {dateBuilder(new Date())}
               </div>
 
             </div>      
